@@ -64,4 +64,25 @@ cd ../server && npm install
 npm start  
 
 # Run the frontend  
-npm start  
+npm start
+```
+## 🔧 Environment Variables
+```python
+
+MONGO_URL=*****
+# Secrect keys given by API: https://www.jdoodle.com/
+# Please set it before using application, otherwise cpp and java won't work
+
+JDOODLE_CLIENTID=*****
+JDOODLE_CLIENTSECRET=*****
+CLOUDINARY_NAME=*****
+CLOUDINARY_API_KEY=*****
+CLOUDINARY_API_SECRET=*****
+
+```
+## 🚀 Future Enhancements
+- Add dark/light theme toggle 🌗  
+- Improve leaderboard & contest history  
+- Add more language support for code editor  
+- Integrate AI-based code suggestions 🤖
+
