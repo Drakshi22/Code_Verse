@@ -48,7 +48,7 @@ It provides an integrated environment to **write, compile, manage, and share cod
 ---
 
 ## ⚙️ Installation & Setup
-
+- Install [Node.js](https://nodejs.org/en/), [ReactJs](https://reactjs.org/docs/getting-started.html), [MongoDB](https://www.mongodb.com/)
 ```bash
 # Clone the repository  
 git clone https://github.com/Drakshi22/Code_Verse.git  
@@ -80,6 +80,14 @@ CLOUDINARY_API_KEY=*****
 CLOUDINARY_API_SECRET=*****
 
 ```
+## How to run ?
+```python
+# start React server (frontend) 
+npm start
+# start node.js server (backend)
+nodemon index.js
+```
+
 ## 🚀 Future Enhancements
 - Add dark/light theme toggle 🌗  
 - Improve leaderboard & contest history  
