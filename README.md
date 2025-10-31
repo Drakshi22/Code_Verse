@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CodeVerse - A Competitive Programming Portal
 
 ### Table of Contents
@@ -80,3 +81,7 @@ nodemon index.js
 <!-- ## Screenshots -->
 <!-- - Screenshots are here :) -->
   <!-- ![CodeVerse](screenshots) -->
+=======
+# Code_Verse
+A Competitive Programming Platform created during my college project
+>>>>>>> 936e231b8f499decdc112250431ae1549dce12f6
