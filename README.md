@@ -51,7 +51,7 @@ It provides an integrated environment to **write, compile, manage, and share cod
 
 ```bash
 # Clone the repository  
-git clone https://github.com/your-username/Code_Verse.git  
+git clone https://github.com/Drakshi22/Code_Verse.git  
 
 # Navigate to the project folder  
 cd Code_Verse  
