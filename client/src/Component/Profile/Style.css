@@ -1,0 +1,89 @@
+.modal {
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+  transition: all 0.3s ease;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal > .header {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f8f9fa;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal > .content {
+  padding: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.modal > .actions {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.modal > .actions button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal > .actions button:hover {
+  background-color: #145fc1;
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  font-size: 20px;
+  background: #fff;
+  color: #666;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  transition: background 0.3s, transform 0.2s ease;
+}
+
+.modal > .close:hover {
+  background: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.popup-content {
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #ffffff;
+}

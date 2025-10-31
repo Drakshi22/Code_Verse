@@ -1,0 +1,85 @@
+/* Container Styling */
+.login {
+    width: 400px;
+    background: linear-gradient(135deg, #ffffff, #f9f9f9);
+    border: 1px solid #dddfe2;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1),
+                0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Entry Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Input Field Styling */
+.login > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.75rem 0;
+    padding: 0.65rem 1rem;
+    width: 90%;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+    background-color: #f5f6f7;
+}
+
+/* Input Focus Effect */
+.login > input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 4px rgba(24, 119, 242, 0.2);
+    background-color: #fff;
+}
+
+/* Button Styling */
+.login > .button {
+    background: linear-gradient(145deg, #1877f2, #166fe5);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.65rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    width: 92%;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease;
+}
+
+/* Button Hover and Active */
+.login > .button:hover {
+    background: #145fcb;
+    transform: translateY(-2px);
+}
+
+.login > .button:active {
+    transform: scale(0.97);
+}
+
+/* Link or Subtext Styling */
+.child1 {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #555;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.child1:hover {
+    color: #1877f2;
+    text-decoration: underline;
+}
